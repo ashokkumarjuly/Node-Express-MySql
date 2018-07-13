@@ -4,12 +4,12 @@ API Server is built using NodeJS + ExpressJs + MySQL + Sequelize.
 Bootstrap 4  is added using Gulp
 
 ### Features: ###
-- NodeJs
-- ExpressJs
-- MySql
-- SequelizeJs
+- NodeJs 8x
+- ExpressJs 4x
+- MySql 5.7
+- SequelizeJs 4x
 - Logging Support using bunyan & morgan
-- Bootstrap 4 with scss support
+- Bootstrap 4x with scss support
 - Gulp used to build the html,Bootstrap,css,js files
 
 ### Pre-requisite ###
