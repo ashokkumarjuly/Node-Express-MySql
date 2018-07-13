@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    font-family: 'Roboto', sans-serif;    
+}
+
+body {
+    padding-top: 54px;
+}
+
+.head {
+    position: absolute;
+    top: 180px;
+    border: 1px solid #c8c8c8;
+    min-height: 500px;
+}
+ h3,h1{
+     font-weight: 300
+ }
+
+.flex-column .nav-item li a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.no-padding {
+    padding: 0
+}
+.border-red{
+    border: 1px solid red;
+}
+div.required label.col-form-label:after {
+    color: #e13431;
+    content: " *";
+}
+.btn {
+    border-radius: 0px;
+}
+.tab-content {
+    margin-top: 27px;
+}
+
+.nav-item .active {
+    background-color: #f8f8f8;
+    color: black;
+    border-bottom: 2px solid red;
+}
+
+.nav-item a {
+    color: #000;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.v-tabs {
+    border: 1px solid #ddd;
+    padding: 0;
+    margin: 12px;
+    min-height: 570px;
+}
+
+.vertical {
+    border: 1px solid #ddd;
+    padding: 0;
+    margin: 12px;
+    min-height: 500px;
+}
+
+.contents {
+    text-align: left;
+    padding: 20px
+}
+
+
+.calc {
+    width: 100%;
+    margin: 14px auto;
+    padding: 9px;
+}
+ 
+.units {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.units li {
+    display: inline;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #f00;
+    border-color: #f00 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: #f00 #e9ecef #dee2e6;
+}
+.loading-gif {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity:0.7;
+    background: url("../images/loading.gif") no-repeat center center #FFF;
+}
+#loan-calculator-sidebar li a{
+    text-align: left;
+}
+
+.lang-changer a{
+    color:#212529
+}
+.lang-changer a.active{
+    color:#003d7d
+}
+
+.modal-header{
+ 
+    background: #dc3545;
+    color: #fff;
+}
+.modal-header,.modal-footer{
+    padding: 9px;
+}

@@ -1,0 +1,15 @@
+{
+    "strict": true,
+    "laxcomma": true,
+    "esversion": 6,
+    "node": true,
+    "esnext": false,
+  "moz": true,
+  "boss": true,
+  
+  "validthis": true,
+  "globals": {
+    "EventEmitter": true,
+    "Promise": true
+  }
+}
